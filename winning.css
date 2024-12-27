@@ -17,3 +17,29 @@ body {
 #win-main {
     height: 100%;
 }
+
+.grow {
+    animation-name: grow;
+}
+
+.cup,
+.star1,
+.star2,
+.star3,
+.star4,
+.star5,
+.star6,
+.star7,
+.star8 {
+    animation-duration: 3s;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0.1);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
