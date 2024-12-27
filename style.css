@@ -366,7 +366,7 @@ li::marker {
 .circle1 {
     border: 35px solid #4fe168;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 2px #28c944;
+    box-shadow: 2px 2px 2px 2px #4fe168;
     animation-duration: 3s;
     background-color: #64d978;
 }
@@ -374,7 +374,7 @@ li::marker {
 .circle2 {
     border: 40px solid #28c944;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 2px #16a12f;
+    box-shadow: 2px 2px 2px 2px #4fe168;
     animation-duration: 3s;
     background-color: #28c944;
 }
@@ -382,7 +382,7 @@ li::marker {
 .circle3 {
     border: 40px solid #16a12f;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 2px #0a6e1f;
+    box-shadow: 2px 2px 2px 2px #4fe168;
     animation-duration: 3s;
     background-color: #16a12f;
 }
