@@ -57,9 +57,9 @@ const handleChoice = (userChoice) => {
 
   } else if (winningCombinations[userChoice] === pcChoice) {
     const selectedButton = document.getElementById(`img-div${userChoice}`);
-    you_picked.innerHTML = ` <div class="circle1">
-                              <div class="circle2">
-                              <div class="circle3">
+    you_picked.innerHTML = ` <div class="circle1 grow">
+                              <div class="circle2 grow">
+                              <div class="circle3 grow">
                                    ${selectedButton.outerHTML}
                               </div></div></div>`;
     const selectedButton2 = document.getElementById(`img-div${pcChoice}`);
@@ -77,9 +77,9 @@ const handleChoice = (userChoice) => {
     const selectedButton = document.getElementById(`img-div${userChoice}`);
     you_picked.innerHTML = `<div class="ideal"> ${selectedButton.outerHTML}</div>`
     const selectedButton2 = document.getElementById(`img-div${pcChoice}`);
-    pc_picked.innerHTML = ` <div class="circle1">
-                              <div class="circle2">
-                              <div class="circle3">
+    pc_picked.innerHTML = ` <div class="circle1 grow">
+                              <div class="circle2 grow">
+                              <div class="circle3 grow">
                                    ${selectedButton2.outerHTML}
                               </div></div></div>`;
     result_1.innerText = "YOU LOST";
