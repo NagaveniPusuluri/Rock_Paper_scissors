@@ -366,25 +366,25 @@ li::marker {
 .circle1 {
     border: 35px solid #4fe168;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 2px #4fe168;
+    box-shadow: 2px 2px 2px 2px #28c944;
     animation-duration: 3s;
-    background-color: #64d978;
+    background-color: #4fe168;
 }
 
 .circle2 {
     border: 40px solid #28c944;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 2px #4fe168;
+    box-shadow: 2px 2px 2px 2px #16a12f;
     animation-duration: 3s;
-    background-color: #28c944;
+    background-color: #4fe168;
 }
 
 .circle3 {
     border: 40px solid #16a12f;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px 2px #4fe168;
+    box-shadow: 2px 2px 2px 2px #0a6e1f;
     animation-duration: 3s;
-    background-color: #16a12f;
+    background-color: #4fe168;
 }
 
 .grow {
