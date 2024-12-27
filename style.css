@@ -364,9 +364,9 @@ li::marker {
 }
 
 .circle1 {
-    border: 35px solid #64d978;
+    border: 35px solid #4fe168;
     border-radius: 50%;
-    box-shadow: 1px 1px 1px 1px #28c944;
+    box-shadow: 2px 2px 2px 2px #28c944;
     animation-duration: 3s;
     background-color: #64d978;
 }
