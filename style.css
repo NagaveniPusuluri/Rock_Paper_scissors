@@ -376,7 +376,7 @@ li::marker {
     border-radius: 50%;
     box-shadow: 2px 2px 2px 2px #16a12f;
     animation-duration: 3s;
-    background-color: #4fe168;
+    background-color: #28c944;
 }
 
 .circle3 {
@@ -384,7 +384,7 @@ li::marker {
     border-radius: 50%;
     box-shadow: 2px 2px 2px 2px #0a6e1f;
     animation-duration: 3s;
-    background-color: #4fe168;
+    background-color: #16a12f;
 }
 
 .grow {
